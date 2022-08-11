@@ -133,7 +133,7 @@ Message @JamesTsetsekas</a> Contact us for sponsorship opportunties.</a> </p>
     <h2>Recommended Spending Wallets</h2>
     <p><a href="https://phoenix.acinq.co/" target="blank">Phoenix Wallet</a> - iPhone and Android: Bitcoin Lightning wallet (handles on-chain transactions by swapping in/out of Lightning). Free and open source, very user-friendly bitcoin and Lightning integration, unable to connect to own/chosen node.
 
-      <br /><br /><a href="https://muun.com/" target="blank">Muun Wallet</a> - iPhone and Android: Bitcoin on-chain and Lightning wallet. Free and open source, self-custodial wallet for bitcoin and lightning, unable to connect to own/chosen node..
+      <br /><br /><a href="https://muun.com/" target="blank">Muun Wallet</a> - iPhone and Android: Bitcoin on-chain and Lightning wallet. Free and open source, self-custodial wallet for bitcoin and lightning, unable to connect to own/chosen node.
 
       <br /><br /><a href="https://bluewallet.io/" target="blank">Blue Wallet</a> - iPhone and Android: Bitcoin on-chain and Lightning wallet. Free and open source, single- and multi-signature, coin control features, batch spending, Tor connectivity, able to connect to own/chosen node.
 
@@ -216,7 +216,8 @@ Message @JamesTsetsekas</a> Contact us for sponsorship opportunties.</a> </p>
     {"type":"Electronics", "name": "Zumi", "address":"Australia-wide / Online-only <br/>https://zumi.com.au", "lightning": "<center>No</center>", "comments":"Residential and business energy retailer"},
     {"type":"Energy", "name": "1st Energy", "address":"Australia-wide / Online-only <br/>https://1stenergy.com.au", "lightning": "<center>No</center>", "comments":"Residential and business energy retailer"},
     {"type":"Coffee Beans", "name": "108 Specialty Coffee", "address":"Australia-wide / Online-only <br/>https://108specialtycoffee.com", "lightning": "", "comments":"Coffee beans and related products"}, */
-    {"loc":[40.721202, -74.0455824], "name":"Helen's Pizza", "type":"Restaurant", "url":"https://www.helenspizza.com/", "address":"183 Newark Ave, Jersey City, NJ 07302", "lightning": "<center>Yes</center>", "comments":"No-frills pizzeria with thick-crust slices & pies plus wings, pasta, hot & cold Italian heros.", "discount":"10%"},
+    {"loc":[40.721202, -74.0455824], "name":"Helen's Pizza", "type":"Restaurant", "url":"https://www.helenspizza.com/", "address":"183 Newark Ave, Jersey City, NJ 07302", "lightning": "<center>?</center>", "comments":"No-frills pizzeria with thick-crust slices & pies plus wings, pasta, hot & cold Italian heros.", "discount":"10%"},
+    {"loc":[40.8038583, -73.9535533], "name":"Safari Harlem", "type":"Restaurant", "url":"https://safariharlem.com/", "address":"219 West 116TH St , NY 10026", "lightning": "<center>?</center>", "comments":"Hearty Somali & East African specialties are cooked up in the kitchen of this casual, low-key cafe.", "discount":"-"},
 
   ];
 
@@ -275,7 +276,7 @@ Message @JamesTsetsekas</a> Contact us for sponsorship opportunties.</a> </p>
 </script>
 
 <script>
-  const tableData = data.map(obj => obj = {Type: obj.type, Name: obj.name, Location: obj.address, Lightning: obj.lightning, Comments: obj.comments, Discount: obj.discount});
+  const tableData = data.map(obj => obj = {Type: obj.type, Name: obj.name, Location: obj.address, Lightning: obj.lightning, Comments: obj.comments, "BTC Discount": obj.discount});
 
   window.addEventListener('DOMContentLoaded', () => {
     const thead = document.querySelector("#searchableTable thead");
