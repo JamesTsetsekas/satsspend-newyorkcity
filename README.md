@@ -1,12 +1,15 @@
 # SatsSpend - Australian Bitcoin Business List (Website)
 
-SatsSpend is a website of Australian businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.
+SatsSpend is a website of New York City Area businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.
 
-The website can be access here: https://satsspend.com or https://mission-bitcoin.github.io/satsspend-australian_bitcoin_business_list/
-
+The website can be access here: https://jamestsetsekas.github.io/satsspend-newyorkcity
 
 __________________________________________________________________________________________________________________________________________
-**Libraries:** 
+**Credit**
+- @mission-bitcoin
+ : https://github.com/mission-bitcoin/satsspend-australian_bitcoin_business_list (SatsSpend Creator) - MIT Licence
+
+**Libraries:**
 
 - @Leaflet : https://github.com/Leaflet/Leaflet (for leaflet.js and leaflet.css) - BSD 2-Clause License
 - @stefanocudini : https://github.com/stefanocudini/leaflet-search (for leaflet-search.js and leaflet-search.css) - MIT Licence
