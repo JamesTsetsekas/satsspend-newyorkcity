@@ -1,4 +1,4 @@
-# SatsSpend - Australian Bitcoin Business List (Website)
+# SatsSpend - New York City Bitcoin Business List (Website)
 
 SatsSpend is a website of New York City Area businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.
 
